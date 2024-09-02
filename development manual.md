@@ -1,3 +1,9 @@
+# updating
+
+from the root dir:
+
+npx update2latest ./pub. dependencies
+
 
 # building
 

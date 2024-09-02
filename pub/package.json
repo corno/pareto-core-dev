@@ -1,6 +1,6 @@
 {
   "name": "pareto-core-dev",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "license": "ISC",
   "description": "a pareto package that contains functions that are useful during development",
   "author": "Corno",
@@ -20,7 +20,7 @@
     "dist"
   ],
   "dependencies": {
-    "pareto-core-internals": "^0.19.2"
+    "pareto-core-internals": "^0.22.0"
   },
   "repository": {
     "type": "git",
