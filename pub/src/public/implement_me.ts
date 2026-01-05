@@ -1,4 +1,7 @@
-import * as _pint from 'pareto-core-internals'
+
+import {
+    $$ as get_location_info,
+} from "pareto-core-internals/dist/misc/get_location_info"
 
 /**
  * use this function as a placeholder when you want to compile but have not fully developed all functionality yet.
@@ -8,5 +11,6 @@ import * as _pint from 'pareto-core-internals'
  * @param message the string to be printed to stderr
  */
 export function implement_me(marker: string): never {
-    throw new Error(`IMPLEMENT ME ${marker ? `: '${marker}'` : ''}@ ${_pint.location_to_string(_pint.get_location_info(1))}`)
+    const location = get_location_info(1)
+    throw new Error(`IMPLEMENT ME ${marker ? `: '${marker}'` : ''}@ ${location.file}:${location.line}:${location.column}`)
 }
