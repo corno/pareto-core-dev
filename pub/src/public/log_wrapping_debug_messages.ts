@@ -8,8 +8,6 @@
 export function log_wrapping_debug_messages<T>(
     message: string,
     handler: () => T,
-    after: string,
-
 ): T {
     console.log("DEBUG BEFORE", message)
     const startTime = Date.now()
