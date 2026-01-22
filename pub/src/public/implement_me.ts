@@ -1,7 +1,7 @@
 
 import {
     $$ as get_location_info,
-} from "pareto-core-internals/dist/__internals/sync/get_location_info"
+} from "pareto-core/dist/__internals/sync/get_location_info"
 
 /**
  * use this function as a placeholder when you want to compile but have not fully developed all functionality yet.
