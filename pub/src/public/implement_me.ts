@@ -12,5 +12,11 @@ import {
  */
 export function implement_me(marker: string): never {
     const location = get_location_info(1)
-    throw new Error(`IMPLEMENT ME ${marker ? `: '${marker}'` : ''}@ ${location.file}:${location.line}:${location.column}`)
+    throw new Error(`IMPLEMENT ME ${marker ? `: '${marker
+
+        }'` : ''
+        }@ ${location['document resource identifier']
+        }:${location.line
+        }:${location.column
+        }`)
 }
