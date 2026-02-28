@@ -1,6 +1,6 @@
 {
   "name": "pareto-core-dev",
-  "version": "0.12.8",
+  "version": "0.12.9",
   "license": "ISC",
   "description": "a pareto package that contains functions that are useful during development",
   "author": "Corno",
