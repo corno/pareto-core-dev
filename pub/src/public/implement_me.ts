@@ -11,9 +11,8 @@ import get_location_info from "../get_location_info"
 export function implement_me(marker: string): never {
     const location = get_location_info(1)
     throw new Error(`IMPLEMENT ME ${marker ? `: '${marker
-
         }'` : ''
-        }@ ${location['document resource identifier']
+        } @ ${location['document resource identifier']
         }:${location.line
         }:${location.column
         }`)
