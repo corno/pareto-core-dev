@@ -1,9 +1,9 @@
 {
   "name": "pareto-core-dev",
   "version": "0.12.16",
-  "license": "ISC",
-  "description": "a pareto package that contains functions that are useful during development",
+  "license": "Apache-2.0",
   "author": "Corno",
+  "description": "a pareto package that contains functions that are useful during development",
   "keywords": [
     "pareto",
     "development",
@@ -14,15 +14,16 @@
   "bugs": {
     "url": "https://github.com/corno/pareto-core-dev/issues"
   },
-  "main": "./dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/corno/pareto-core-dev.git"
   },
+
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
     "pareto-core": "^0.1.0"
   }
