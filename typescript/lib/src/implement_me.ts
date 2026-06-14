@@ -8,7 +8,7 @@ import get_location_info from "./private/get_location_info"
  * before publishing, the usages should be removed
  * @param message the string to be printed to stderr
  */
-export default function _p_implement_me(marker: string): never {
+export default function implement_me(marker: string): never {
     const location = get_location_info(1)
     throw new Error(`IMPLEMENT ME ${marker
         ? `: '${marker
