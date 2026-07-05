@@ -1,5 +1,5 @@
 
-import get_location_info from "./private/get_location_info"
+import get_location_info from "./private/get_location_info.js"
 
 /**
  * use this function as a placeholder when you want to compile but have not fully developed all functionality yet.
