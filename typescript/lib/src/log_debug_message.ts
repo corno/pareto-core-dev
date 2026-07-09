@@ -5,7 +5,7 @@
  * before publishing, the usages should be removed
  * @param message the string to be printed to stdout
  */
-export default function log_debug_message<T>(
+export default function <T>(
     message: string,
     handler: () => T
 ): T {

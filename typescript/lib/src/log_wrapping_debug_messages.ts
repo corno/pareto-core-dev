@@ -1,6 +1,6 @@
 
 
-export default function log_wrapping_debug_messages<T>(
+export default function <T>(
     message: string,
     handler: () => T,
 ): T {
